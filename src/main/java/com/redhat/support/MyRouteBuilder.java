@@ -2,8 +2,8 @@ package com.redhat.support;
 
 import org.apache.camel.builder.RouteBuilder;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.ws.rs.WebApplicationException;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.ws.rs.WebApplicationException;
 
 @ApplicationScoped
 public class MyRouteBuilder extends RouteBuilder {
